@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>分类总览-热门电影大全</title>
+  <meta name="description" content="热门影片分类总览，按题材与地区浏览高清电影在线播放片库。">
+  <meta name="keywords" content="热门电影大全,热门影片片库,高清电影在线播放,热门电影,电影片库,影片合集,分类总览,电影分类">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="./index.html" aria-label="热门电影大全">
+      <span class="brand-icon">▶</span>
+      <span>热门电影大全</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <div class="nav-dropdown">
+        <span class="nav-trigger">分类</span>
+        <div class="dropdown-menu">
+              <a href="./category-hot-movies.html">热门电影</a>
+              <a href="./category-animation.html">动画片库</a>
+              <a href="./category-suspense.html">悬疑犯罪</a>
+              <a href="./category-action.html">动作冒险</a>
+              <a href="./category-romance-comedy.html">爱情喜剧</a>
+              <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+              <a href="./category-drama.html">剧情佳片</a>
+              <a href="./category-horror-thriller.html">恐怖惊悚</a>
+              <a href="./category-series.html">剧集连播</a>
+              <a href="./category-asia.html">日韩精选</a>
+              <a href="./category-world-cinema.html">欧美片库</a>
+              <a href="./category-classic.html">经典佳作</a>
+        </div>
+      </div>
+      <a class="nav-link active" href="./categories.html">分类总览</a>
+      <a class="nav-link" href="./ranking.html">热播榜单</a>
+      <a class="nav-link" href="./search.html">搜索片库</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、标签..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" data-menu-toggle aria-label="展开导航">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类总览</a>
+    <a href="./ranking.html">热播榜单</a>
+    <a href="./search.html">搜索片库</a>
+      <a href="./category-hot-movies.html">热门电影</a>
+      <a href="./category-animation.html">动画片库</a>
+      <a href="./category-suspense.html">悬疑犯罪</a>
+      <a href="./category-action.html">动作冒险</a>
+      <a href="./category-romance-comedy.html">爱情喜剧</a>
+      <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+      <a href="./category-drama.html">剧情佳片</a>
+      <a href="./category-horror-thriller.html">恐怖惊悚</a>
+  </div>
+</header>
+<main class="page-shell">
+  <section class="page-hero">
+    <h1>热门影片分类总览</h1>
+    <p>按热门电影、动画、悬疑、动作、爱情、科幻、剧情、恐怖、剧集、日韩、欧美和经典内容整理片库入口。</p>
+  </section>
+<section class="section-block">
+  <div class="section-head">
+    <div>
+      <h2 class="section-title">全部分类入口</h2>
+      <p class="section-desc">选择你感兴趣的题材，进入独立分类页继续浏览影片卡片与详情页。</p>
+    </div>
+    
+  </div>
+<div class="category-grid">
+<a class="category-tile" href="./category-hot-movies.html">
+  <img src="./9.jpg" alt="热门电影" loading="lazy">
+  <div class="category-tile-content">
+    <h3>热门电影</h3>
+    <p>关注度较高的电影内容与片库精选，适合快速发现正在热播的影片。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-animation.html">
+  <img src="./3.jpg" alt="动画片库" loading="lazy">
+  <div class="category-tile-content">
+    <h3>动画片库</h3>
+    <p>动画电影、动画剧集与奇幻冒险内容，覆盖合家欢、治愈与热血题材。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-suspense.html">
+  <img src="./16.jpg" alt="悬疑犯罪" loading="lazy">
+  <div class="category-tile-content">
+    <h3>悬疑犯罪</h3>
+    <p>悬疑推理、犯罪调查与心理反转片单，适合喜欢高张力叙事的观众。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-action.html">
+  <img src="./1.jpg" alt="动作冒险" loading="lazy">
+  <div class="category-tile-content">
+    <h3>动作冒险</h3>
+    <p>动作、冒险、武侠、战争与硬核对抗题材，突出节奏与视听冲击。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-romance-comedy.html">
+  <img src="./5.jpg" alt="爱情喜剧" loading="lazy">
+  <div class="category-tile-content">
+    <h3>爱情喜剧</h3>
+    <p>爱情、喜剧、都市与青春题材，适合轻松观影和情感共鸣。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-sci-fi-fantasy.html">
+  <img src="./8.jpg" alt="科幻奇幻" loading="lazy">
+  <div class="category-tile-content">
+    <h3>科幻奇幻</h3>
+    <p>科幻、奇幻、魔幻和灾难题材，汇集想象力丰富的视觉内容。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-drama.html">
+  <img src="./4.jpg" alt="剧情佳片" loading="lazy">
+  <div class="category-tile-content">
+    <h3>剧情佳片</h3>
+    <p>剧情、文艺、传记与历史内容，强调人物关系与情绪层次。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-horror-thriller.html">
+  <img src="./6.jpg" alt="恐怖惊悚" loading="lazy">
+  <div class="category-tile-content">
+    <h3>恐怖惊悚</h3>
+    <p>恐怖、惊悚、灵异与怪谈内容，营造紧张刺激的观影氛围。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-series.html">
+  <img src="./7.jpg" alt="剧集连播" loading="lazy">
+  <div class="category-tile-content">
+    <h3>剧集连播</h3>
+    <p>电视剧、网络剧、综艺与连续内容，适合长线追看。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-asia.html">
+  <img src="./2.jpg" alt="日韩精选" loading="lazy">
+  <div class="category-tile-content">
+    <h3>日韩精选</h3>
+    <p>日本、韩国及亚洲地区热门影视内容，覆盖校园、家庭、悬疑与爱情。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-world-cinema.html">
+  <img src="./10.jpg" alt="欧美片库" loading="lazy">
+  <div class="category-tile-content">
+    <h3>欧美片库</h3>
+    <p>欧美及全球电影剧集内容，包含商业类型片与艺术佳作。</p>
+  </div>
+</a>
+<a class="category-tile" href="./category-classic.html">
+  <img src="./19.jpg" alt="经典佳作" loading="lazy">
+  <div class="category-tile-content">
+    <h3>经典佳作</h3>
+    <p>经典年份、口碑题材与长尾片单，适合回看高辨识度内容。</p>
+  </div>
+</a>
+</div>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div>
+      <h2 class="section-title">精选片库速览</h2>
+      <p class="section-desc">从全站片库中抽取高辨识度影片，便于直接进入播放页。</p>
+    </div>
+    <a class="section-link" href="./search.html">搜索片库</a>
+  </div>
+<div class="movie-grid large">
+<article class="movie-card" data-card data-title="六连煞" data-meta="中国大陆 电影 悬疑, 犯罪, 古装 唐朝 连环杀人 风水 狄仁杰风 本格推理 悬疑 犯罪 古装 2031" data-category="悬疑犯罪">
+  <a href="./movie-550.html" aria-label="六连煞">
+    <div class="poster-frame">
+      <img src="./100.jpg" alt="六连煞" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2031</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>六连煞</h3>
+        <p>悬疑, 犯罪, 古装 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>长安城连续六位高官在“六煞位”离奇死亡，大理寺卿发现凶手竟是根据长安城风水布局在杀人。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="时空战场" data-meta="美国 电影 动作 / 科幻 / 战争 穿越 二战 祖父悖论 动作 科幻 战争 2030" data-category="热门电影">
+  <a href="./movie-140.html" aria-label="时空战场">
+    <div class="poster-frame">
+      <img src="./140.jpg" alt="时空战场" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2030</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>时空战场</h3>
+        <p>动作 / 科幻 / 战争 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>2045年的士兵穿越回1944年刺杀希特勒，却发现历史已被另一个人改写过。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="变形金刚" data-meta="美国 电影 动作, 科幻 重启 载具战争 地球原生 古文明 动作 科幻 2029" data-category="欧美片库">
+  <a href="./movie-102.html" aria-label="变形金刚">
+    <div class="poster-frame">
+      <img src="./102.jpg" alt="变形金刚" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2029</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>变形金刚</h3>
+        <p>动作, 科幻 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>变形金刚并非外星来客，而是地球古文明制造的终极兵器。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="古惑万能车" data-meta="香港 电影 科幻, 动作, 喜剧 变形汽车 街头古惑仔 人工智能 黑科技 科幻 动作 喜剧 2029" data-category="科幻奇幻">
+  <a href="./movie-373.html" aria-label="古惑万能车">
+    <div class="poster-frame">
+      <img src="./73.jpg" alt="古惑万能车" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2029</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>古惑万能车</h3>
+        <p>科幻, 动作, 喜剧 · 香港</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>废柴混混阿强修好一辆报废的丰田保姆车，发现它能变成任何交通工具，甚至仿生人。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="打击魔鬼" data-meta="香港 电影 动作 / 犯罪 / 警匪 卧底 黑吃黑 三合会 动作 犯罪 警匪 2029" data-category="动作冒险">
+  <a href="./movie-1908.html" aria-label="打击魔鬼">
+    <div class="poster-frame">
+      <img src="./108.jpg" alt="打击魔鬼" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2029</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>打击魔鬼</h3>
+        <p>动作 / 犯罪 / 警匪 · 香港</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>卧底警察发现要抓捕的毒枭，竟是二十年前救过自己命的孤儿院哥哥。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="荒野谜尸" data-meta="美国 电影 惊悚 / 悬疑 / 犯罪 无人区 法医 道德陷阱 大雪封山 反转再反转 惊悚 悬疑 犯罪 2028" data-category="恐怖惊悚">
+  <a href="./movie-47.html" aria-label="荒野谜尸">
+    <div class="poster-frame">
+      <img src="./47.jpg" alt="荒野谜尸" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>荒野谜尸</h3>
+        <p>惊悚 / 悬疑 / 犯罪 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一名法医在无人区发现十具排列成圆阵的冰冻男尸，而他自己正成为第十一个“献祭品”。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="变脸英雄" data-meta="中国大陆 电影 动作， 科幻， 悬疑 卧底 高科技面具 反转 动作 科幻 悬疑 2028" data-category="动作冒险">
+  <a href="./movie-301.html" aria-label="变脸英雄">
+    <div class="poster-frame">
+      <img src="./1.jpg" alt="变脸英雄" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>变脸英雄</h3>
+        <p>动作， 科幻， 悬疑 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一名潜入犯罪组织的特工使用高科技变脸术，却发现自己替换的身份竟是组织的创始人。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="红盾先锋" data-meta="中国大陆 剧集 刑侦, 动作, 悬疑 特警 金融犯罪 卧底 网络安全 反诈 刑侦 动作 悬疑 2028" data-category="剧集连播">
+  <a href="./movie-363.html" aria-label="红盾先锋">
+    <div class="poster-frame">
+      <img src="./63.jpg" alt="红盾先锋" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>红盾先锋</h3>
+        <p>刑侦, 动作, 悬疑 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>红盾特警队精英伪装成菜鸟程序员，潜入跨国电信诈骗集团，却发现头目竟是三年前的殉职队友。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="爱情领域2" data-meta="泰国 电视剧 / 爱情 爱情 / 同性 / 青春 学弟学弟 体育生 足球队长 艺术生 双向暗恋 爱情 同性 青春 2028" data-category="日韩精选">
+  <a href="./movie-509.html" aria-label="爱情领域2">
+    <div class="poster-frame">
+      <img src="./59.jpg" alt="爱情领域2" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>爱情领域2</h3>
+        <p>爱情 / 同性 / 青春 · 泰国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>足球社社长和美术系学弟互相暗恋却不敢表白，因为他们的哥哥曾是一对殉情的恋人。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="千钧。一发" data-meta="中国大陆 电影 犯罪 / 动作 / 悬疑 拆弹专家 限时营救 密室逃脱 城市危机 犯罪 动作 悬疑 2028" data-category="动作冒险">
+  <a href="./movie-749.html" aria-label="千钧。一发">
+    <div class="poster-frame">
+      <img src="./149.jpg" alt="千钧。一发" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>千钧。一发</h3>
+        <p>犯罪 / 动作 / 悬疑 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>闹市惊现炸弹，拆弹专家发现引线连接着千里之外的一个心脏病患者的心跳。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="我们在南太平洋上的岛屿" data-meta="中国大陆 电视剧 剧情 / 爱情 / 年代 年代 海岛 华人 奋斗 史诗 剧情 爱情 2028" data-category="剧集连播">
+  <a href="./movie-1131.html" aria-label="我们在南太平洋上的岛屿">
+    <div class="poster-frame">
+      <img src="./81.jpg" alt="我们在南太平洋上的岛屿" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>我们在南太平洋上的岛屿</h3>
+        <p>剧情 / 爱情 / 年代 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>从上世纪60年代至今，三代华人女性在法属波利尼西亚的一座小岛上，用贝壳、珍珠和血泪建立起了属于她们的家园帝国。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="冈比" data-meta="美国 动画电影 喜剧, 冒险, 家庭 粘土动画 怀旧 无厘头 小人物 喜剧 冒险 家庭 2028" data-category="动画片库">
+  <a href="./movie-1140.html" aria-label="冈比">
+    <div class="poster-frame">
+      <img src="./90.jpg" alt="冈比" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>冈比</h3>
+        <p>喜剧, 冒险, 家庭 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>四肢短小、只会说“嗯哼”的粘土人冈比，为了找回被偷走的布娃娃，踏上了穿越现实与玩具世界的冒险。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="余生—赛德克·巴莱" data-meta="中国台湾 电影 历史 / 战争 / 剧情 原住民 抗日 续作 史诗 历史 战争 剧情 2028" data-category="动作冒险">
+  <a href="./movie-1142.html" aria-label="余生—赛德克·巴莱">
+    <div class="poster-frame">
+      <img src="./92.jpg" alt="余生—赛德克·巴莱" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>余生—赛德克·巴莱</h3>
+        <p>历史 / 战争 / 剧情 · 中国台湾</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>雾社事件幸存者被迁至川中岛后的余生，他们在屈辱与遗忘中，如何守护自己的彩虹桥信仰与文化火种。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="恶魔奶爸" data-meta="日本 剧集 喜剧 / 奇幻 / 育儿 魔界婴儿 不良少年 反差萌 爆笑 喜剧 奇幻 育儿 2028" data-category="科幻奇幻">
+  <a href="./movie-1433.html" aria-label="恶魔奶爸">
+    <div class="poster-frame">
+      <img src="./83.jpg" alt="恶魔奶爸" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>恶魔奶爸</h3>
+        <p>喜剧 / 奇幻 / 育儿 · 日本</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>最凶残的不良少年被迫当起了魔界未来继承人的奶爸，一打架就要先换尿布。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="群蛇出洞" data-meta="美国 电影 灾难, 惊悚, 冒险 蛇灾 自然灾害 逃生 密闭空间 爽片 灾难 惊悚 冒险 2028" data-category="恐怖惊悚">
+  <a href="./movie-1461.html" aria-label="群蛇出洞">
+    <div class="poster-frame">
+      <img src="./111.jpg" alt="群蛇出洞" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>群蛇出洞</h3>
+        <p>灾难, 惊悚, 冒险 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一场地震激活了地下休眠千万年的蛇类大本营，整个城市地铁系统瞬间沦为蛇窟。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="银色假面" data-meta="美国 电影 科幻, 惊悚 AI换脸 身份盗用 数字永生 科幻 惊悚 2028" data-category="恐怖惊悚">
+  <a href="./movie-1497.html" aria-label="银色假面">
+    <div class="poster-frame">
+      <img src="./147.jpg" alt="银色假面" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>银色假面</h3>
+        <p>科幻, 惊悚 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一款能让你“成为任何人”的社交面具APP大火后，用户开始一个接一个地“变成”同一个人。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="蜀山：新蜀山剑侠" data-meta="中国 电影 奇幻 / 武侠 仙侠重启 视觉奇观 剑仙文化 奇幻 武侠 2028" data-category="科幻奇幻">
+  <a href="./movie-1598.html" aria-label="蜀山：新蜀山剑侠">
+    <div class="poster-frame">
+      <img src="./98.jpg" alt="蜀山：新蜀山剑侠" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>蜀山：新蜀山剑侠</h3>
+        <p>奇幻 / 武侠 · 中国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>血魔复活，但峨眉掌门却转世成了一个只会写代码的程序员。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="天相" data-meta="中国大陆 电影 科幻悬疑 天文学 超自然 反乌托邦 科幻悬疑 2028" data-category="科幻奇幻">
+  <a href="./movie-1819.html" aria-label="天相">
+    <div class="poster-frame">
+      <img src="./19.jpg" alt="天相" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2028</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>天相</h3>
+        <p>科幻悬疑 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>全球各地同时出现同一张人脸星云，而那个长相的人，1987年就已经失踪了。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="父土" data-meta="中国大陆 电影 剧情， 历史， 家庭 三代人 土地变迁 东北工业衰败 剧情 历史 家庭 2027" data-category="剧情佳片">
+  <a href="./movie-12.html" aria-label="父土">
+    <div class="poster-frame">
+      <img src="./12.jpg" alt="父土" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>父土</h3>
+        <p>剧情， 历史， 家庭 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一个东北家庭三代人，面对工厂下岗、土地拆迁和外迁发展，争论到底哪里才是“回不去的故乡”。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="科利奥兰纳斯" data-meta="英国 电影 剧情 / 历史 / 战争 莎士比亚改编 权力斗争 悲剧英雄 政治惊悚 剧情 历史 战争 2027" data-category="动作冒险">
+  <a href="./movie-13.html" aria-label="科利奥兰纳斯">
+    <div class="poster-frame">
+      <img src="./13.jpg" alt="科利奥兰纳斯" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>科利奥兰纳斯</h3>
+        <p>剧情 / 历史 / 战争 · 英国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>罗马最伟大的将军因傲慢被流放，他转而投敌，剑指曾经深爱的故土。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="女神之境：换魂游戏" data-meta="韩国 电影 奇幻， 惊悚 灵魂互换 双女主 邪教祭祀 奇幻 惊悚 2027" data-category="恐怖惊悚">
+  <a href="./movie-46.html" aria-label="女神之境：换魂游戏">
+    <div class="poster-frame">
+      <img src="./46.jpg" alt="女神之境：换魂游戏" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>女神之境：换魂游戏</h3>
+        <p>奇幻， 惊悚 · 韩国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一名当红女爱豆与一名深山女巫在一次触电事故中互换了身体，而三天后女爱豆将被献祭。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="黑色警戒线" data-meta="中国大陆 电视剧 犯罪 / 悬疑 / 刑侦 卧底 毒品 黑吃黑 高智商犯罪 犯罪 悬疑 刑侦 2027" data-category="悬疑犯罪">
+  <a href="./movie-55.html" aria-label="黑色警戒线">
+    <div class="poster-frame">
+      <img src="./55.jpg" alt="黑色警戒线" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>黑色警戒线</h3>
+        <p>犯罪 / 悬疑 / 刑侦 · 中国大陆</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>卧底警察意外成为毒枭接班人，却发现警队里藏着更大的“鬼”。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="新万圣节2" data-meta="美国 电影 恐怖 / 砍杀 重启 面具杀手 小镇 血腥 次世代 恐怖 砍杀 2027" data-category="恐怖惊悚">
+  <a href="./movie-61.html" aria-label="新万圣节2">
+    <div class="poster-frame">
+      <img src="./61.jpg" alt="新万圣节2" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>新万圣节2</h3>
+        <p>恐怖 / 砍杀 · 美国</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>40年后，迈克尔·迈尔斯的面具被一个高中技术宅3D打印出来，戴上的瞬间，他的精神也下载到了少年的脑子里。</p>
+    </div>
+  </a>
+</article>
+<article class="movie-card" data-card data-title="火之壁" data-meta="日本 电影 灾难，剧情 火灾 消防员 邻里 灾难 剧情 2027" data-category="日韩精选">
+  <a href="./movie-72.html" aria-label="火之壁">
+    <div class="poster-frame">
+      <img src="./72.jpg" alt="火之壁" loading="lazy">
+      <span class="poster-shade"></span>
+      
+      <span class="year-badge">2027</span>
+      <span class="play-mark">▶</span>
+      <div class="poster-info">
+        <h3>火之壁</h3>
+        <p>灾难，剧情 · 日本</p>
+      </div>
+    </div>
+    <div class="card-copy">
+      <p>一栋高层公寓发生火灾，顶层住户为了自救封死了逃生门，将楼下邻居困在火海中。</p>
+    </div>
+  </a>
+</article>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div>
+      <strong>热门电影大全</strong>
+      <span> · 热门影片片库与高清在线播放</span>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">榜单</a>
+      <a href="./search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="./assets/js/main.js" defer></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
